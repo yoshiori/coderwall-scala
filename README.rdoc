@@ -1,0 +1,9 @@
+= coderwall
+A Scala module for accessing user data at http://coderwall.com
+
+== Usage:
+  scala> import org.yoshiori._
+  import org.yoshiori._
+  
+  scala> println(Coderwall.get("yoshiori"))
+  Coderwall(yoshiori,Yoshiori SHOJI,tokyo,3,List(Badge(Python 3,Have at least three original repos where Python is the dominant language,http://cdn.coderwall.com/assets/badges/python3-6293182f14dcc759727cf49c016e27be.png), Badge(Charity,Fork and commit to someone's open source project in need,http://cdn.coderwall.com/assets/badges/charity-bf61e713137d910534ff805f389bcffb.png), Badge(Mongoose,Have at least one original repo where Ruby is the dominant language,http://cdn.coderwall.com/assets/badges/mongoose-58cc728c2fc9af62e48c81a03029b23d.png), Badge(Bear,Have at least one original repo where Objective-C is the dominant language,http://cdn.coderwall.com/assets/badges/bear-77297682d72716ea4cf2f0789ba9a522.png), Badge(Komodo Dragon,Have at least one original repo where Java is the dominant language,http://cdn.coderwall.com/assets/badges/komododragon-a3c9e164e154f3b09f5f2efac009cd51.png), Badge(Walrus,The walrus is no stranger to variety. Use at least 4 different languages throughout all your repos,http://cdn.coderwall.com/assets/badges/walrus-afb03ee2081181fd46740fe41cf6a254.png), Badge(Forked,Have a project valued enough to be forked by someone else,http://cdn.coderwall.com/assets/badges/forked1-3ab7151a48c89d99a36cf68e0b569a14.png), Badge(Python,Would you expect anything less? Have at least one original repo where Python is the dominant language,http://cdn.coderwall.com/assets/badges/python-4a05de054fc216dd278d4c45717e5d41.png), Badge(Kona,Have at least one original repo where CoffeeScript is the dominant language,http://cdn.coderwall.com/assets/badges/coffee-b103909e5482307eb1ddab29a94e09ca.png)))
