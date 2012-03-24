@@ -10,8 +10,10 @@ object ProjectBuild extends Build {
       name := "coderwall-scala",
       organization := "org.yoshiori",
       version := "0.1-SNAPSHOT",
-      scalaVersion := "2.9.1"
-      // add other settings here
+      scalaVersion := "2.9.1",
+
+      libraryDependencies += "net.liftweb" %% "lift-json" % "2.4"
     )
+
   )
 }
