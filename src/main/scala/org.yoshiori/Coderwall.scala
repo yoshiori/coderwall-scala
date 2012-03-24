@@ -8,7 +8,7 @@ case class Badge(name:String,description:String,badge:String)
 object Coderwall {
   def get(username:String):Coderwall = {
     val json = scala.io.Source.fromURL(
-      "http://coderwall.com/%s.json".format(username)).getLines.mkString("")
+      "http://coderwall.com/%s.json".format(username)).getLines.mkString
     implicit val formats = DefaultFormats
     parse(json).extract[Coderwall]
   }
