@@ -20,7 +20,6 @@ object Main {
   def main(args: Array[String]) {
     args match {
       case Array(username) =>
-        val username = args(0)
         val c = Coderwall.get(username)
         println(c)
       case _ => println("Usage: Coderwal.scala USERNAME")
